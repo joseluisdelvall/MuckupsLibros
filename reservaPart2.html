@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reserva de Libros</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <a href="https://fundacionloyola.com/vguadalupe/" target="_blank"><img src="img/logoEVG.png" alt=""></a>
+            <nav>
+                <a href="">Manual de Reserva</a>
+                <a href="">Reserva Presencial</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Formulario de reserva</h1>
+                <p class="parrafoCentrado">
+                    Continua con la reserva de tus libros, selecciona cuáles deseas reservar.
+                </p>
+                <article>
+                    <form action="" method="POST" class="claseFormulario">
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <input type="text" name="apellidos" placeholder="Apellidos">
+                        <input type="text" name="dni" placeholder="DNI">
+                        <input type="text" name="correo" placeholder="Correo Electronico">
+                        <label for="libros">Libros de 1ºDAW</label>
+                        <div>
+                            <input type="checkbox" id="libro1" name="libros[]" value="libro1">
+                            <label for="libro1">Libro 1</label><br>
+                            <input type="checkbox" id="libro2" name="libros[]" value="libro2">
+                            <label for="libro2">Libro 2</label><br>
+                            <input type="checkbox" id="libro3" name="libros[]" value="libro3">
+                            <label for="libro3">Libro 3</label><br>
+                            <input type="checkbox" id="libro4" name="libros[]" value="libro4">
+                            <label for="libro4">Libro 4</label><br>
+                            <input type="checkbox" id="libro5" name="libros[]" value="libro5">
+                            <label for="libro5">Libro 5</label><br>
+                        </div>
+                        <input type="hidden" name="curso" value="1DAW">
+                        <input type="submit">
+                        <a class="volverFlecha" href="">
+                            <img src="img/hacia-atras.png" alt="">
+                        </a>
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Escuela Virgen de Guadalupe
+            </p>
+            <p>
+                Grupo 2
+            </p>
+        </footer>
+    </body>
+</html>
