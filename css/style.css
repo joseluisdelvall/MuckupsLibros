@@ -133,7 +133,6 @@ h1 {
 .claseFormulario > * {
 
     display: block;
-    width: 100%;
     margin: 1vh auto;
 
 }
@@ -175,6 +174,24 @@ h1 {
 
 }
 
+#file-upload {
+    display: none;
+}
+
+#archivoSubida {
+
+    background-color: var(--color-alternativo);
+    border-radius: 5px;
+    padding: 1vh 2vw;
+    
+}
+
+#archivoSubida:hover {
+
+    cursor: pointer;
+
+}
+
 .volverFlecha {
 
     position: absolute;
@@ -183,6 +200,7 @@ h1 {
     width: fit-content;
 
 }
+
 
 /* ------------- Listado de solicitudes de reserva ------------- */
 
